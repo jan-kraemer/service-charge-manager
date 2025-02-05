@@ -1,0 +1,29 @@
+CREATE TABLE IF NOT EXISTS property
+(
+    id
+    UUID
+    PRIMARY
+    KEY
+    NOT
+    NULL,
+    address
+    TEXT
+    NOT
+    NULL,
+    city
+    TEXT
+    NOT
+    NULL,
+    zip_code
+    TEXT
+    NOT
+    NULL,
+    country
+    TEXT
+    NOT
+    NULL,
+    quantity_residential_units
+    INTEGER
+    NOT
+    NULL
+);
